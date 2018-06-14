@@ -3,3 +3,4 @@
 
 echo "-----> Creating fuseki dir"
 mkdir -p $1/etc/fuseki;
+echo "-----> Created"
