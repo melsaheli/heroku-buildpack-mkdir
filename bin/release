@@ -1,4 +1,0 @@
-#!/bin/sh
-
-echo "finish create dri /etc/fuseki"
-
