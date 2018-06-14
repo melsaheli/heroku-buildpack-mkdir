@@ -4,7 +4,7 @@
 $DIR_NAME="fuseki"
 
 
-if [ ! -d $1/etc/fuseki ]; then
+if [ ! -d $1/$DIR_NAME ]; then
   exit 0
 else
   exit 1
