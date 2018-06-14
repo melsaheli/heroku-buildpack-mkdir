@@ -1,7 +1,6 @@
 #!/bin/sh
 
 $DIR_NAME="fuseki"
-$DIR_ROOT="$0/etc/"
 
-echo "-----> Creating dir $DIR_NAME"
-mkdir -p $DIR_ROOT/$DIR_NAME;
+echo "-----> Creating dir fuseki"
+mkdir -p $1/$DIR_NAME;

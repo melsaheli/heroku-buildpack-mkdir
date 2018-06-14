@@ -3,7 +3,6 @@
 # this pack is valid for apps with a hello.txt in the root
 $DIR_NAME="fuseki"
 
-
 if [ ! -d $1/$DIR_NAME ]; then
   exit 0
 else
