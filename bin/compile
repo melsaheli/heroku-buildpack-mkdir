@@ -1,6 +1,4 @@
 #!/bin/sh
 
-$DIR_NAME="fuseki"
-
 echo "-----> Creating dir fuseki"
-mkdir -p $1/$DIR_NAME;
+mkdir -p $1/fuseki;
