@@ -2,3 +2,4 @@
 
 echo "-----> Creating dir fuseki"
 mkdir -p $0/etc/fuseki;
+mkdir -p $0/share/fuseki;
