@@ -2,8 +2,5 @@
 
 # this pack is valid for apps with a hello.txt in the root
 
-if [ ! -d $0/etc/fuseki ]; then
-  exit 0
-else
-  exit 1
-fi
+chmod -R g+w /app
+echo "------------> chmod"
